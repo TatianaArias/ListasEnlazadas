@@ -6,7 +6,9 @@ namespace ListaEnlaza
         public int Dato;
         //declaramos un puntero que nos sirva de enlace
         public nodo Enlace;
-//declaramos un constructor.Nos ayuda a insertar un elemento
+        //declaramos un constructor.Nos ayuda a insertar un elemento
+        public nodo siguiente = null;
+        public lista n;
         public nodo(int dato, nodo enlace)
         {
             Dato = dato;

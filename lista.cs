@@ -7,6 +7,7 @@ namespace ListaEnlaza
     {
         //declaramos dos variables de tipo nodo que nos ayudara a saber cual es el inicio y el final
         public nodo inicio, fin;
+
         //creamos un
         public lista()
         {
@@ -34,7 +35,31 @@ namespace ListaEnlaza
                 Console.WriteLine("");
                 recorrer = recorrer.Enlace;
             }
-
+        }
+        public lista obtenerindice(int Dato, int n)
+        {
+            if (inicio == null)
+            {
+                return null;
+            }
+            else
+            {
+                nodo Enlace = inicio;
+                int contador = 0;
+                while (contador < Dato && Enlace.siguiente != null)
+                {
+                    Enlace = Enlace.siguiente;
+                    contador++;
+                }
+                if (contador != Dato)
+                {
+                    return null;
+                }else{
+                    return Enlace.n;
+                }
+            }
         }
     }
 }
+
+
