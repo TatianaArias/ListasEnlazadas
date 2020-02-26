@@ -70,6 +70,7 @@ namespace ListaEnlaza
                 WriteLine("1. Agregar datos");
                 WriteLine("2. Mostrar datos");
                 WriteLine("3. Obtener tamaño lista");
+                WriteLine("4. Obtener Posición Por Valor");
                 numero = Convert.ToInt32(ReadLine());
                 switch (numero)
                 {
@@ -93,13 +94,6 @@ namespace ListaEnlaza
                         }
                         break;
                     case 4:
-                        {
-                            ReadKey();
-                            //ejecutar el programa
-                        }
-                        break;
-
-                    case 5:
                         {
                             WriteLine("ingrese el valor a consultar");
                             int valorAconsultar = Convert.ToInt32(ReadLine());
