@@ -6,6 +6,7 @@ namespace ListaEnlaza
         public int Dato;
         // representa en el nodo la parte que apunta al siguiente nodo de su mismo tipo
         public Nodo siguiente;
+      
 
         // metodo constructor que recibe un parametro de tipo entero
         public Nodo(int dato)

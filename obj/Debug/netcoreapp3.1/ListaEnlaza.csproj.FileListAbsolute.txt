@@ -9,3 +9,14 @@ C:\Users\USER\ListaEnlaza\obj\Debug\netcoreapp3.1\ListaEnlaza.AssemblyInfoInputs
 C:\Users\USER\ListaEnlaza\obj\Debug\netcoreapp3.1\ListaEnlaza.AssemblyInfo.cs
 C:\Users\USER\ListaEnlaza\obj\Debug\netcoreapp3.1\ListaEnlaza.dll
 C:\Users\USER\ListaEnlaza\obj\Debug\netcoreapp3.1\ListaEnlaza.pdb
+C:\Users\XGAnalista2\ejercicio2\ListasEnlazadas\bin\Debug\netcoreapp3.1\ListaEnlaza.exe
+C:\Users\XGAnalista2\ejercicio2\ListasEnlazadas\bin\Debug\netcoreapp3.1\ListaEnlaza.deps.json
+C:\Users\XGAnalista2\ejercicio2\ListasEnlazadas\bin\Debug\netcoreapp3.1\ListaEnlaza.runtimeconfig.json
+C:\Users\XGAnalista2\ejercicio2\ListasEnlazadas\bin\Debug\netcoreapp3.1\ListaEnlaza.runtimeconfig.dev.json
+C:\Users\XGAnalista2\ejercicio2\ListasEnlazadas\bin\Debug\netcoreapp3.1\ListaEnlaza.dll
+C:\Users\XGAnalista2\ejercicio2\ListasEnlazadas\bin\Debug\netcoreapp3.1\ListaEnlaza.pdb
+C:\Users\XGAnalista2\ejercicio2\ListasEnlazadas\obj\Debug\netcoreapp3.1\ListaEnlaza.csprojAssemblyReference.cache
+C:\Users\XGAnalista2\ejercicio2\ListasEnlazadas\obj\Debug\netcoreapp3.1\ListaEnlaza.AssemblyInfoInputs.cache
+C:\Users\XGAnalista2\ejercicio2\ListasEnlazadas\obj\Debug\netcoreapp3.1\ListaEnlaza.AssemblyInfo.cs
+C:\Users\XGAnalista2\ejercicio2\ListasEnlazadas\obj\Debug\netcoreapp3.1\ListaEnlaza.dll
+C:\Users\XGAnalista2\ejercicio2\ListasEnlazadas\obj\Debug\netcoreapp3.1\ListaEnlaza.pdb
