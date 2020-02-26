@@ -1,18 +1,19 @@
 namespace ListaEnlaza
 {
-    public class nodo
+    public class Nodo
     {
-        //Declarar una variable para almacenar en muestra lista un entero
+        //representa el espacio en el nodo donde vamos a almacenar la informacion con nuestros datos
         public int Dato;
-        //declaramos un puntero que nos sirva de enlace
-        public nodo Enlace;
-        //declaramos un constructor.Nos ayuda a insertar un elemento
-        public nodo siguiente = null;
-        public lista n;
-        public nodo(int dato, nodo enlace)
+        // representa en el nodo la parte que apunta al siguiente nodo de su mismo tipo
+        public Nodo siguiente;
+
+        // metodo constructor que recibe un parametro de tipo entero
+        public Nodo(int dato)
         {
+            //al atributo dato le asignamos el parametro dato
             Dato = dato;
-            Enlace = enlace;
+            siguiente = null;
+
         }
     }
 }
