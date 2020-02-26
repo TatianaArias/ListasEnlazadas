@@ -88,7 +88,8 @@ namespace ListaEnlaza
                         break;
                     case 3:
                         {
-                            milista.obtenertamañoLista();//tamañolista
+                            WriteLine("tamaño" + milista.obtenertamañoLista());
+                           //tamañolista
                         }
                         break;
                     case 4:
