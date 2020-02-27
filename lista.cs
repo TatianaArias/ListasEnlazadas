@@ -5,13 +5,21 @@ namespace ListaEnlaza
     {
         private Nodo cabezaLista;
         private int tamañoLista;
-
         private int posicion;
-
         public lista()
         {
             cabezaLista = null;
             tamañoLista = 0;
+        }
+        //agregar datos a la lista
+        public int agregarNodo(int dato)
+        {
+            Nodo nuevoNodo = new Nodo(dato); //adicionar nodo
+            nuevoNodo.siguiente = cabezaLista; // Ir al primer nodo
+            cabezaLista = nuevoNodo; //coloca el nuevo nodo de primero
+            nuevoNodo.posicion = tamañoLista;
+            tamañoLista++;
+            return dato;
         }
         // Confirmar si la lista esta vacía
         public void listaVacia()
@@ -24,16 +32,6 @@ namespace ListaEnlaza
             {
                 WriteLine("La lista tiene datos");
             }
-        }
-        //agregar datos a la lista
-        public int agregarNodo(int dato)
-        {
-            Nodo nuevoNodo = new Nodo(dato); //adicionar nodo
-
-            nuevoNodo.siguiente = cabezaLista; // Ir al primer nodo
-            cabezaLista = nuevoNodo; //coloca el nuevo nodo de primero
-            tamañoLista++;
-            return dato;
         }
 
         public void mostrarDatosLista()
@@ -75,7 +73,7 @@ namespace ListaEnlaza
                     {
                         if (prime.siguiente == null)
                         {
-                           return null;
+                            return null;
                         }
                         prime = prime.siguiente;
                     }
@@ -83,31 +81,31 @@ namespace ListaEnlaza
             }
             return prime;
         }
-        public int ObtenerPosicionPorValor(int Dato)
+        public int ObtenerPosicionPorValor(int dato)
         {
-            Nodo prime = cabezaLista;
-            if (prime == null)
+            Nodo nodoActual = cabezaLista;
+            if (nodoActual == null)
             {
                 WriteLine("La lista no tiene datos");
             }
             else
             {
-                while (prime.siguiente != null || prime.siguiente == null)
+                while (nodoActual != null)
                 {
-                    if (prime.Dato == posicion)
+                    if (nodoActual.Dato == dato)
                     {
-                        return posicion;
+                        return nodoActual.posicion;
                     }
                     else
                     {
-                        if (prime.siguiente == null)
+                        if (nodoActual.siguiente == null)
                         {
                             WriteLine("Es el ultimo nodo de la lista");
                         }
-                        prime = prime.siguiente;
+                        nodoActual = nodoActual.siguiente;
                     }
                 }
-            } 
+            }
             return posicion;
         }
     }

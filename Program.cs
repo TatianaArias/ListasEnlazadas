@@ -24,17 +24,14 @@ namespace ListaEnlaza
             }
             else
             {
-                WriteLine("La lista tiene el dato que ha solicitado: " + milista.agregarNodo(6));
+                WriteLine("La lista tiene el dato que ha solicitado");
             }
-
-            int valorAConsultar = milista.agregarNodo(5);
-            valorAConsultar = Convert.ToInt32(ReadLine());
-            int posicionEncontrada = milista.ObtenerPosicionPorValor(valorAConsultar);
-            WriteLine("A continuación te muestro la posicion en contrada: ");
+            WriteLine("ingrese el valor");
+            int valorAconsultar = Convert.ToInt32(ReadLine());
+            int posicionEncontrada = milista.ObtenerPosicionPorValor(valorAconsultar);
+            WriteLine("A continuación te muestro la posicion en la que se encuentra el:");
             WriteLine(posicionEncontrada);
-
             ReadLine();
-
         }
     }
 }
